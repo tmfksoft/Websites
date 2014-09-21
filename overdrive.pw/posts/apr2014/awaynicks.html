@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OVERdrive-IRC main website.">
+    <meta name="author" content="GLolol">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico" sizes="32x32 16x16">
+
+    <title>OVERdrive-IRC</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet">
+    <link href="../overdrive-irc.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    </div>
+    <div class="container">
+      <h1>Announcement regarding awaynick disabling</h1>
+      <p><span class="glyphicon glyphicon-pencil"></span> Posted by GLolol on 12 Apr 2014</p>
+      <hr>
+        <p class="lead">After some debate with our operators and administrators, we have collectively decided to disable the use of awaynicks on our network.</p>
+        <p>The reason behind this decision is really for practicality. As IRC is an asynchronous protocol, there is really <em>no need</em> to iterate the fact that you're away by changing your nick or using an away message. Simply mark yourself away using the <code>/away</code> command, and anyone who tries to contact you will get a friendly message saying that you're busy.</p>
+        <p><code>* [synnerjee] is away (I'm busy)</code></p>
+        <h3>So, what do I do?</h3>
+        <p>Chances are (if you don't use awaynicks), this will not affect you at all.</p>
+        <p>For the ones who still do, this change will only block nick changes matching <code>*[a]*</code> and <code>*[away]*</code>, without impacting any other functionality.</p>
+        <p>If you still are using awaynicks, well, don't. Most clients (such as HexChat, WeeChat, and others), use the standard <code>/away</code> command, and don't announce away messages. ZNC users can simply unload module <a href="http://wiki.znc.in/awaynick">*awaynick</a> (if loaded), and use <a href="http://wiki.znc.in/Simple_away">*simple_away</a> instead.</p>
+      <hr>
+        <p>As always, the OVERdrive-IRC is open to your feedback regarding this issue. Feel free to drop us a comment in <b>#Help</b> if you have one.</p>
+        <p>Thanks for your continued support.</p>
+        <p><b><em>Reference:</em></b> <a href="http://sackheads.org/~bnaylor/spew/away_msgs.html">http://sackheads.org/~bnaylor/spew/away_msgs.html</a>
+<hr>
+      <footer>
+        <p>Copyright &copy; 2013-2014, OVERdrive-IRC. All rights reserved.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+/* Global styles file for packages.overdrive.pw (and possibly others) */
+body {
+    margin:1%;
+}
+pre {
+    background: linear-gradient(to bottom right, #DFDFDF, #F6F6F6);
+    background-color:#EEEEEE;
+    padding: 10px;
+    border:2px solid;
+    border-radius:10px;
+    margin: -5px 5px;
+    display: inline-block;
+}
+h1, h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h1 {
+    color:#353;
+    border-bottom:1px solid #888;
+}
+h2 {
+    color:DarkSlateBlue;
+}
+.scaps {
+    font-variant:small-caps;
+    font-size:x-large;
+    margin: -3px 0px;
+    font-weight: bold;
+}
+ul.pkglist {
+    column-count:3;
+    -moz-column-count:3; /* Firefox */
+    -webkit-column-count:3; /* Safari and Chrome */
+    border-top:1px solid #ccc;
+    padding: 10px 1px;
+    list-style-position: inside;
+}
+table, th, td {
+    border: 1px solid black;
+}
+td, th {
+    text-align: center;
+    padding: 4px;
+}

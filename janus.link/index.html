@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>janus.link - Your #1 Resource for all things Janus</title>
+<style>
+body {
+    font-family:Arial,"Liberation Sans",Helvetica,sans-serif;
+}
+h1 {
+    text-align:center;
+    font-family:"Trebuchet MS",Arial,"Liberation Sans",Helvetica,sans-serif;
+}
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+p {
+    font-size:16px;
+}
+li span,p span {
+    background-color:LemonChiffon;
+}
+li span.spoiler, p span.spoiler {
+    display:none;
+}
+li:hover span.spoiler, p:hover span.spoiler {
+    display:inline;
+}
+li:hover span.main, p:hover span.main {
+    display:none;
+}
+p.footer {
+    font-size:12px;
+    text-align:center;
+}    
+</style>
+</head>
+
+<body>
+<h1>janus.link - Your #1 Resource for all things Janus</h1>
+<img src="jlc.png" alt="" title="a Diamond Janus linking cable." width="186" height="239" class="centered">
+<h3>What is Janus?</h3>
+<p>Janus, written in Perl, is an IRC service daemon that allows individual networks to selectively and transparently share channels over a greater Janus network. In a way, it behaves like a relay bot, except all channels are linked server-side (i.e. you can see remote users as if they were on the same network as you). All channel sharing is managed through a Janus Control Interface.</p>
+<p>Although the concept of Janus is perfectly valid, the current implementation <span class="main">does have it's own <a href="#">drawbacks</a>.</span><span class="spoiler">suffers from a range of issues: messy/outdated code, and software bugs that <em>severely</em> impact usability (and <a href="/janusissues/15.htm">never</a> <a href="/janusissues/16.htm">get</a> <a href="/janusissues/17.htm">fixed</a>).</span></p>
+<p>Janus supports multiple IRCds<span class="main">, from UnrealIRCd to InspIRCd to TS6-based networks (charybdis, etc.)!</span><span class="spoiler"> supposedly, but the only protocol that's actually usable (doesn't randomly create ghost users or cause protocol violation on overly long nicknames) at the moment is UnrealIRCd. Boo hoo!</span></p>
+<h2>News</h2>
+<p><b>10/09/2014</b>: Janus maintainer decides to pull the <a href="https://github.com/Trixarian/janus2/issues">entire Janus repository</a> (and <a href="https://github.com/Trixarian/janus/issues">create a new one</a>) after learning of this site! The mirror for the issues is <a href="/janusissues/">here</a>.</p>
+<ul><li>So much for misguided rants, eh? <b>Show some love, everyone!</b> :^)</li></ul>
+<h3>Resources</h3>
+<p>For ease of use, we have compiled a list of helpful resources relating to Janus. Please note that our website is being completely redesigned, so apologies for the layout.</p>
+<ul>
+    <li>If you're looking for the download link for Janus, <span class="main"><a href="#">click here.</a></span><span class="spoiler">Google is your friend! (though we don't <em>really</em> recommend using Janus at the moment)</span></li>
+    <li>If you're looking for tips on how to improve your network with Janus, <span class="main"><a href="#">click here.</a></span><span class="spoiler">the answer is clear: <strong>you don't</strong>.</span></li>
+    <li>If you're looking for help on how to use Janus, <span class="main"><a href="#">check this out!</a></span><span class="spoiler">good luck! Hope and pray that your network doesn't fall apart from all the bugs and netsplits you'll encounter!</span></li>
+    <li>And finally, if you're looking for mature, active Janus communities open to links, <span class="main">check out the <a href="#">janus.link forums!</a></span><span class="spoiler">you're in the <em>wrong</em> place.</span></li>
+</ul>
+<p>In short, <span class="main">Janus is a wonderful piece of software that you should totally try out today!</span><span class="spoiler">Janus is a terribly coded, practically abandoned effort that's <em>not</em> worth your time. We've used it, and it caused way too many <em>problems</em> to count. <a href="https://github.com/Trixarian/janus/issues/17">No suitable replacement is available yet, unfortunately</a>.</span></p>
+<p class="footer">This message is brought to you by <a href="http://bil.overdrive.pw/">BullSh!7 International Limited</a>.</p>
+</body>
+</html>

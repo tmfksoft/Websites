@@ -1,0 +1,12 @@
+noup/
+
+# OS-specific
+$RECYCLE.BIN/
+*.lnk
+*~
+*.bak
+
+# Website specific
+janus.link/*.txt
+janus.link/janusissues/
+bil.overdrive.pw/downloads/

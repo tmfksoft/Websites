@@ -1,0 +1,106 @@
+@import url(//fonts.googleapis.com/css?family=Droid+Sans);
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+html, body {
+    height: 98%;
+}
+body {
+	/* background-color: #333339; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("sunriseLarge.jpg");
+	color: white;
+	font-family: sans-serif;
+    text-align: center;
+}
+h1,p.lead,.nav {
+    text-shadow: 2px 1px 1px #111; 
+    font-family:"Droid Sans", sans-serif;
+}
+h1 {
+	font-size: 48px;
+    color: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%);
+    color: #e5ebee;
+    margin: 9px;
+}
+p {
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+	font-size: 14px;
+}
+.lead {
+    font-size: 20px;
+}
+
+a {
+	color: #33eaea;
+	text-decoration: none;
+}
+a:hover {
+	color: #aaeeee;
+}
+.container {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+.container-inner {
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+}
+.footer {
+    text-align: center;
+    color: #999999;
+    padding-bottom: 25px;
+}
+#splashimg {
+    padding: 4px;
+    background-color: #eeefff;
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    transition: all 1s;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+.nav > ul > li {
+    display: inline;
+    padding-top: 15px;
+    font-family:"Open Sans", sans-serif;
+}
+.nav ul > li > a, #sitelist {
+    background: rgb(34, 34, 42);
+    background: rgba(34, 34, 42, .5);
+}
+.nav ul > li > a {
+    padding: 4px;
+    font-size: 18px;
+    color: #EEEEEE;
+    border-radius:9px;
+}
+.nav ul > li > a:hover,
+.nav ul > li > a:focus {
+    color: #EEEE88;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+#sitelist {
+    border-radius: 15px;
+    border:inset 4px #b4b4b4;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
+
+#sitelist > li {
+    padding: 4px;
+    font-size: 20px;
+}

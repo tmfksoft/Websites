@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta charset="UTF-8">
+<title>The Utopia Repository</title>
+<link rel="stylesheet" type="text/css" href="gstyle.css">
+</head>
+
+<body>
+<h1>The Utopia Repository</h1>
+<p style="font-size:large;">View the repo in your browser: <a href="dists/">dists/</a> <a href="pool/">pool/</a></p>
+<p>Welcome to <em class="scaps" style="color:DarkSlateBlue;">Utopia</em>, James (GLolol)'s personal APT repository for Debian.</p>
+<p>At the moment, this repository focuses on importing things <em>not available</em> in stock Debian into one centralized repository, making it easier to install things! Supported architectures are amd64 and i386.</p>
+<p class="scaps" style="color:maroon;">Absolutely no warranty is provided for the use of any software in this repository; use at your own risk!<br>All credit goes out to the software's original developers.</p>
+
+<h2>Instructions</h2>
+<p>This repository basically works like any other APT repository or Ubuntu PPA, and is signed using a <a href="https://secure.overdrive.pw/debian/repo.gpg.key">GPG key</a>.</p>
+<h3>1) Add the repository to sources.list</h3>
+<p>Currently supported releases are Debian 7 (wheezy) and Debian jessie/sid:</p>
+<p>To use the repository, append:</p>
+<pre style="margin-bottom:6px">deb http://packages.overdrive.pw/ wheezy main import
+deb-src http://packages.overdrive.pw/ wheezy main import</pre> or 
+<pre style="margin-top:6px">deb http://packages.overdrive.pw/ sid main import
+deb-src http://packages.overdrive.pw/ sid main import</pre>
+<p>to your sources.list file.</p>
+<h3>2) Install the repository's <a href="https://secure.overdrive.pw/debian/repo.gpg.key">GPG signing key</a></h3>
+<pre>wget -O /tmp/sub.class1.server.ca.pem https://www.startssl.com/certs/sub.class1.server.ca.pem
+wget --ca-certificate=/tmp/sub.class1.server.ca.pem -O - https://secure.overdrive.pw/debian/repo.gpg.key | sudo apt-key add -</pre>
+<h3>3) Enjoy!</h3>
+After adding the repositories of your choice, simply run <code>apt-get update</code> to update your repository cache. Then, you will be able to install packages whichever way you like! (apt-get, aptitude, synaptic, etc.)
+
+<h2>Contents</h2>
+<p>This repository currently has 2 areas/components for each suite (wheezy or sid):</p>
+<ul>
+    <li><b>main</b>: Manually (re)packaged packages for this repository (<code>~dimp</code> or <code>~drepack</code> tag at end), and a few extras I put in.</li>
+    <li><b>import</b>: The bulk of the goodies: these packages have either been directly imported (mirrored) from an external source, or simply haven't been tested well enough to put in main.</li>
+</ul>
+
+<p>Packaged content includes utilities and themes from:</p>
+<ul>
+<li><a href="http://packages.linuxmint.com">Linux Mint</a>: mintmenu, etc.</li>
+<li><a href="//launchpad.net/~numix/+archive/ubuntu/ppa">the Numix Project</a> <em>(mirror)</em></li>
+<li>Ubuntu: <a href="http://packages.ubuntu.com/utopic/lubuntu-artwork">Lubuntu-artwork</a>, <a href="http://packages.ubuntu.com/utopic/ttf-ubuntu-font-family">Ubuntu fonts</a>, etc.</li>
+<li><a href="//launchpad.net/~moka/+archive/ubuntu/stable">the Moka project</a> <em>(partial mirror)</em></li>
+<li><a href="http://deb-multimedia.org/">deb-multimedia.org</a> <em>(partial mirror for installing <a href="//ffmpeg.org">FFmpeg</a>)</em></li>
+</ul>
+
+<h3>Package lists <span style="font-size:medium;">(opens up in new window)</span></h3>
+<p>These lists are periodically generated using a python script, and may not reflect the most current changes in the repository.</p>
+<ul>
+    <li>Package lists for <b>wheezy</b>: <a href="wheezy_list.html" target="_blank">main</a> <a href="wheezy-imports_list.html" target="_blank">import</a></li>
+    <li>Package lists for <b>sid</b>: <a href="sid_list.html" target="_blank">main</a> <a href="sid-imports_list.html" target="_blank">import</a></li>
+</ul>
+<h2>Contact</h2>
+<p>Questions? Feedback? Concerns? Send me an e-mail at <a href="mailto:GLolol@overdrive.pw">GLolol@overdrive.pw</a></p>
+</body></html>
