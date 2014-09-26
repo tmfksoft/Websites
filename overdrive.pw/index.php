@@ -36,19 +36,18 @@
           <p><a class="btn btn-default" href="about.php" role="button">About us &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2><i class="fa fa-globe"></i> Multiple Networks</h2>
-          <p>We are a community set up on multiple networks (including our own), with all our channels linked together using a <a href="https://github.com/GLolol/SupyPlugins/tree/master/RelayLink">relay bot</a>.</p>
+          <h2><i class="fa fa-globe"></i> Easily Accessible</h2>
+          <p>Since IRC is an open protocol, implementations exist for pretty much every platform! This makes IRC easy and accessible on every device.</p>
           <p>Our main channel can be found at: 
           <ul>
           <li><code><a href="irc://irc.overdrive.pw/chat"> #chat @ irc.overdrive.pw</a></code></li>
-          <!-- <li><code><a href="irc://irc.atheme.org/overdrive"> #overdrive @ irc.atheme.org</a></code></li>-->
           </ul>
           <p><a class="btn btn-default" href="servers.php" role="button">Servers &raquo;</a></p>
        </div>
         <div class="col-md-4">
           <h2><i class="fa fa-comments"></i> WebChat Client</h2>
           <p>For those of you who don't have an IRC client handy or cannot install one, we have a neat web client set up and ready to go!</p>
-          <a class="btn btn-default" href="//webchat.overdrive.pw" role="button">Chat Now! &raquo;</a>
+          <a class="btn btn-default" href="//webchat.overdrive.pw/?nick=ovdWebUser...&amp;channels=chat" role="button">Chat Now! &raquo;</a>
        </div>
       </div>
 

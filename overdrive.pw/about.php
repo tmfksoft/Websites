@@ -143,7 +143,7 @@
 				</tr>
 			</table>
 		</div></div> <!-- /row --><div class="row">
-		<div class="col-md-6">
+		<!-- <div class="col-md-6">
 			<h4 class="media-heading">gbyers</h4>
 			<table class="table table-condensed">
                 <tr>
@@ -163,7 +163,7 @@
                     <td style="font-style:italic;">N/A</td>
                 </tr>
 			</table>
-		</div>
+		</div> -->
       </div></div></div>
        <hr>
       <h2>Contact us</h2>

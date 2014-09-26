@@ -51,7 +51,7 @@
               <td>Seattle, Washington</td>
               <td><span style="color:#05C">NA</span></td>
               <td>GLolol<i>*</i></td>
-              <td>macwolf74</td>
+              <td>N/A</td>
               <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
               <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
             </tr>
@@ -71,21 +71,12 @@
               <td>voidsta</td>
               <td>N/A</td>
               <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
-              <td><i style="color:#DA0" class="fa fa-check"></i> IPv6 Only</td>
-            </tr>
-              <tr>
-              <td>ok.overdrive.pw</td>
-              <td>London, United Kingdom</td>
-              <td><span style="color:#0A4">EU</span></td>
-              <td>gbyers</td>
-              <td>N/A</td>
-              <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
               <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
             </tr>
           </table>
         </div>
         <br>
-
+<!--
         <div class="panel panel-info">
           <div class="panel-heading">Relayed Networks</div>
           <div class="panel-body">
@@ -118,7 +109,7 @@
                 <td><i style="color:#0A0" class="fa fa-check"></i> Yes (+6697)</td>
                 <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
             </tr>
-<!--             <tr>
+             <tr>
                 <td>ParadoxIRC</td>
                 <td><code>#1</code></td>
                 <td><code><a href="irc://irc.paradoxirc.net/1">irc.paradoxirc.net</a></code></td>
@@ -133,9 +124,9 @@
                 <td>April 2014</td>
                 <td><i style="color:#0A0" class="fa fa-check"></i> Yes (+6697)</td>
                 <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
-            </tr> -->
+            </tr> 
             </table>
-      </div>
+      </div> -->
       
       <hr>
       <footer>

@@ -1,1 +1,1 @@
-A list of websites I maintain or develop. Pull requests are welcome.
+Some websites I maintain or develop. Pull requests are welcome.

@@ -31,7 +31,7 @@
             '<li><a href="aup.php">AUP</a></li>
             ';
           ?>
-          <li><a href="//webchat.overdrive.pw/" target="_blank">Chat Now!</a></li>
+          <li><a href="//webchat.overdrive.pw/?nick=ovdWebUser...&amp;channels=chat" target="_blank">Chat Now!</a></li>
           <li><a href="//stats.overdrive.pw/">Stats</a></li>
       <?php
        if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on') {
