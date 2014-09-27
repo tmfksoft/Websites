@@ -26,7 +26,7 @@
 </td></tr>
 <tr><td class="container-inner">
    <h1>sunrise</h1>
-   <p class="lead"><i class="fa fa-dashboard fa-lg"></i> Powered by Debian GNU/Linux 7 (wheezy)</p>
+   <p class="lead"><i class="fa fa-bolt fa-lg"></i> Powered by Debian GNU/Linux 7 (wheezy)</p>
    <p class="lead"><i class="fa fa-building fa-lg"></i> Hosted in Seattle / <a href="https://clientarea.ramnode.com/aff.php?aff=1538">RamNode.com</a></p>
    <br>
    <p><i class="fa fa-calendar-o fa-lg"></i> <?php
@@ -40,7 +40,7 @@
       $secs = $uptime%60;
       echo ($days . " days, " . str_pad($hours, 2, "0", STR_PAD_LEFT) . ":" . str_pad($mins, 2, "0", STR_PAD_LEFT)  . ":" . str_pad($secs, 2, "0", STR_PAD_LEFT) );
       ?></p>
-    <p><i class="fa fa-bolt fa-lg"></i> 
+    <p><i class="fa fa-dashboard fa-lg"></i> 
       <?php
       $loadav = exec('cat /proc/loadavg');
       echo substr($loadav, 0, 15);
