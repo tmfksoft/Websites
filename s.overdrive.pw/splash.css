@@ -4,7 +4,7 @@ html, body {
     height: 98%;
 }
 body {
-	/* background-color: #333339; */
+	background-color: #333339;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-image: linear-gradient(
