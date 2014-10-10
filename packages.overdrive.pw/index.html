@@ -15,21 +15,18 @@
 <h2>Instructions</h2>
 <p>This repository basically works like any other APT repository or Ubuntu PPA, and is signed using a <a href="https://secure.overdrive.pw/debian/repo.gpg.key">GPG key</a>.</p>
 <h3>1) Add the repository to sources.list</h3>
-<p>Currently supported releases are Debian 7 (wheezy) and Debian jessie/sid:</p>
-<p>To use the repository, append:</p>
-<pre style="margin-bottom:6px">deb http://packages.overdrive.pw/ wheezy main import
-deb-src http://packages.overdrive.pw/ wheezy main import</pre> or 
-<pre style="margin-top:6px">deb http://packages.overdrive.pw/ sid main import
+<pre>deb http://packages.overdrive.pw/ sid main import
 deb-src http://packages.overdrive.pw/ sid main import</pre>
-<p>to your sources.list file.</p>
-<h3>2) Install the repository's <a href="https://secure.overdrive.pw/debian/repo.gpg.key">GPG signing key</a></h3>
+<p>The repository is designed for Debian testing/unstable, but older releases are still compatible to some extent.</p>
+<p>Most things in the repository will work with Debian stable and various Ubuntu releases, provided the dependencies are satisfiable. (<b>If they aren't, that means the package isn't compatible with your system!</b> Don't try to forcibly install it!)</p>
+<h3>2) Install the repository's <a href="https://secure.overdrive.pw/repo.gpg.key">GPG signing key</a></h3>
 <pre>wget -O /tmp/sub.class1.server.ca.pem https://www.startssl.com/certs/sub.class1.server.ca.pem
 wget --ca-certificate=/tmp/sub.class1.server.ca.pem -O - https://secure.overdrive.pw/debian/repo.gpg.key | sudo apt-key add -</pre>
 <h3>3) Enjoy!</h3>
 After adding the repositories of your choice, simply run <code>apt-get update</code> to update your repository cache. Then, you will be able to install packages whichever way you like! (apt-get, aptitude, synaptic, etc.)
 
 <h2>Contents</h2>
-<p>This repository currently has 2 areas/components for each suite (wheezy or sid):</p>
+<p>This repository currently has 2 areas/components:</p>
 <ul>
     <li><b>main</b>: Manually (re)packaged packages for this repository (<code>~dimp</code> or <code>~drepack</code> tag at end), and a few extras I put in.</li>
     <li><b>import</b>: The bulk of the goodies: these packages have either been directly imported (mirrored) from an external source, or simply haven't been tested well enough to put in main.</li>
@@ -41,16 +38,17 @@ After adding the repositories of your choice, simply run <code>apt-get update</c
 <li><a href="//launchpad.net/~numix/+archive/ubuntu/ppa">the Numix Project</a> <em>(mirror)</em></li>
 <li>Ubuntu: <a href="http://packages.ubuntu.com/utopic/lubuntu-artwork">Lubuntu-artwork</a>, <a href="http://packages.ubuntu.com/utopic/ttf-ubuntu-font-family">Ubuntu fonts</a>, etc.</li>
 <li><a href="//launchpad.net/~moka/+archive/ubuntu/stable">the Moka project</a> <em>(partial mirror)</em></li>
-<li><s><a href="http://deb-multimedia.org/">deb-multimedia.org</a> <em>(partial mirror for installing <a href="//ffmpeg.org">FFmpeg</a>)</em></s> Debian carries FFmpeg in its <a href="//packages.debian.org/ffmpeg"> repositories now as of 26/09/2014</a></li>
 <li><a href="//mozilla.org">Mozilla</a> (mirrored Firefox and Thunderbird from <a href="//ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubuntu/">Ubuntu PPA</a>)</li>
+<li><ul><li>These packages are compatible with Debian jessie+ (and of course, Ubuntu 14.04+). Debian 7 (Wheezy) is <b>NOT</b> supported, due to libc6, etc. versions being too old.</li></ul></li>
 </ul>
 
 <h3>Package lists <span style="font-size:medium;">(opens up in new window)</span></h3>
 <p>These lists are periodically generated using a python script, and may not reflect the most current changes in the repository.</p>
 <ul>
-    <li>Package lists for <b>wheezy</b>: <a href="wheezy_list.html" target="_blank">main</a> <a href="wheezy-imports_list.html" target="_blank">import</a></li>
+    <!-- <li>Package lists for <b>wheezy</b>: <a href="wheezy_list.html" target="_blank">main</a> <a href="wheezy-imports_list.html" target="_blank">import</a></li> -->
     <li>Package lists for <b>sid</b>: <a href="sid_list.html" target="_blank">main</a> <a href="sid-imports_list.html" target="_blank">import</a></li>
 </ul>
 <h2>Contact</h2>
 <p>Questions? Feedback? Concerns? Send me an e-mail at <a href="mailto:GLolol@overdrive.pw">GLolol@overdrive.pw</a></p>
+<p>Alternatively, you may file an issue against the repository <a href="https://github.com/GLolol/utopia-packages">GLolol/utopia-packages @ GitHub</a></p>
 </body></html>
