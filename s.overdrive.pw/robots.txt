@@ -1,10 +1,2 @@
 User-agent: *
-Allow: index.php
-Allow: sites.htm
-Allow: lilybot.html
-Allow: splash.css
-Allow: *.htm
-Allow: *.html
-Allow: *.css
-Disallow: /*/
-Disallow: /
+Disallow: /u/

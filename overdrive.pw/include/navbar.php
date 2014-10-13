@@ -13,6 +13,7 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <?php
+            $page = strtolower($page);
             echo ($page == 'about') ?
             '<li class="active"><a href="#">About</a></li>
             ' :

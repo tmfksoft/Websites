@@ -1,31 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="OVERdrive-IRC main website.">
-    <meta name="author" content="GLolol">
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
-
-    <title>About - OVERdrive-IRC</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet">
-    <link href="overdrive-irc.css" rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/bootstrap.min.js"></script>
+   <?php
+    $page = 'About';
+    include ('include/headers.php'); ?>
   </head>
 
   <body>
-<?php 
-    $page = 'about';
+<?php
     include ('include/navbar.php'); 
 ?>
     <div class="container">
       <div class="page-header"><h1>About Us</h1></div>
         <p>When OVERdrive-IRC first began, it was nothing more than a small personal channel where friends could gather and peace and chill out. Over the months it was live, the channel grew. A community develops within the channel, and it eventually became the place it is today.</p>
-        <p style="font-size:large;">OVERdrive-IRC’s setup is <em>two-fold:</em> it is both our own network and a series of relayed channels. Originally only one channel, it is now many, spread across several networks for users’ convenience (using a nice relayer). We are always eager to have new people over, so by all means, feel free to check us out!</p>
-        <p>Currently we employ a relay mechanism called RelayLink (<a href="https://github.com/GLolol/SupyPlugins/tree/master/RelayLink">Git source</a>). We run <a href="http://www.atheme.org/projects/charybdis.html">charybdis</a> as our IRCd and <a href="http://atheme.net/atheme.html">atheme IRC Services</a>. Some of the services we provide include ChanServ, NickServ, HostServ, and MemoServ.</p>
+        <!-- <p style="font-size:large;">OVERdrive-IRC’s setup is <em>two-fold:</em> it is both our own network and a series of relayed channels. Originally only one channel, it is now many, spread across several networks for users’ convenience (using a nice relayer). We are always eager to have new people over, so by all means, feel free to check us out!</p> -->
+        <p><i>(and then we expanded into our own network)</i></p>
+        <p>Currently we employ a relay mechanism called RelayLink over multiple networks in our main channel (<a href="https://github.com/GLolol/SupyPlugins/tree/master/RelayLink">Git source</a>). We run <a href="http://www.atheme.org/projects/charybdis.html">charybdis</a> as our IRCd and <a href="http://atheme.net/atheme.html">atheme IRC Services</a>. Some of the services we provide include ChanServ, NickServ, HostServ, and MemoServ.</p>
       <div class="row">
         <div class="col-md-6">
         <h3><i class="fa fa-bullhorn"></i> Channels</h3>
