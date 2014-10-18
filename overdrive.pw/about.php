@@ -56,7 +56,7 @@
                     <td>Bio:</td>
                     <td>GLolol (a.k.a. James) is <s>THE BEST PERSON ON EARTH</s> your resident lazy Asian kid.
                 He enjoys messing around on IRC, and constantly breaks things!<br>
-                <span style="font-size:small;">(He also writes this website, so apologies if things get a <em>little</em> biased!)</span></td>
+                (He also writes this website, so apologies if things get a <em>little</em> biased!)</td>
                 </tr>
 			</table>
 		</div>
