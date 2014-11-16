@@ -33,7 +33,7 @@
             ';
           ?>
           <li><a href="//webchat.overdrive.pw/?nick=ovdWebUser...&amp;channels=chat" target="_blank">Chat Now!</a></li>
-          <li><a href="//stats.overdrive.pw/">Stats</a></li>
+          <li><a href="https://secure.overdrive.pw/stats">Stats</a></li>
       <?php
        if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on') {
         echo '<li><a class="sslbtn" href="https://overdrive.pw' . $_SERVER['REQUEST_URI'] . '">SSL</a></li>';
