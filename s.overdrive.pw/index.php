@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
 <table class="container">
 <tr><td>
     <div class="nav">
@@ -45,7 +44,6 @@
       $loadav = exec('cat /proc/loadavg');
       echo substr($loadav, 0, 15);
       ?></p>
-   <!--<p><a href="sunrise.jpg"><img src="sunrise.jpg" width="300" height="225" id="splashimg" title="Enjoy the sunrise. Watch your step." alt="Enjoy the sunrise. Watch your step."></a></p>-->
 </td></tr>
 <tr><td>
 <footer class="footer">

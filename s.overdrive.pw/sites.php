@@ -27,14 +27,14 @@
     &middot; Website for the OVERdrive-IRC IRC network.
     </li>
     <li>PISG Stats for OVERdrive-IRC &middot; <a href="//secure.overdrive.pw/stats" title="stats take too much cpu to generate =[">http://secure.overdrive.pw/stats</a> 
-    &middot; <a href="http://pisg.sourceforge.net/">PISG</a> Statistics for the IRC network I currently own and operate!
+    &middot; <a href="http://pisg.sourceforge.net/" title="stats take too much cpu to generate =[">PISG</a> Statistics for the IRC network I currently own and operate!
     </li>
     <li>BullSh!7 International Limited! &middot; <a href="//bil.overdrive.pw/" title="omg bullshet is bad word must censor!!!! !">http://bil.overdrive.pw/</a> 
     &middot; April Fools 2014
     </li>
     <li>Description page for my silly IRC bot &middot; <a href="/lilybot.html" title="i made a page for my stupid ircbot deal with it">/lilybot.html</a>
     </li>
-    <li>mIRCskripterz.tk &middot; <a href="//mircskripterz.tk/" title="guess what >this< site's for! :P">http://mircskripterz.tk/</a><br>
+    <li>mIRCskripterz.tk &middot; <a href="//mircskripterz.tk/" title="1337 h4x0rs only!">http://mircskripterz.tk/</a><br>
     </li>
     </ul>
 
