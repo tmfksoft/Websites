@@ -40,20 +40,21 @@
               <td>sunrise.overdrive.pw</td>
               <td>Seattle, Washington</td>
               <td><span style="color:#05C">NA</span></td>
-              <td>GLolol<i>*</i></td>
-              <td>N/A</td>
-              <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
-              <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
-            </tr>
-             <tr>
-              <td>kawaii.overdrive.pw</td>
-              <td>Newark, New Jersey</td>
-              <td><span style="color:#05C">NA</span></td>
-              <td>Kitty<i>*</i></td>
+              <td>GLolol</td>
               <td>Eren</td>
               <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
               <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
             </tr>
+<!-- In the process of being depooled and moved (2014-12-06)
+             <tr>
+              <td>kawaii.overdrive.pw</td>
+              <td>Newark, New Jersey</td>
+              <td><span style="color:#05C">NA</span></td>
+              <td>Kitty</td>
+              <td></td>
+              <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
+              <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
+            </tr> -->
              <tr>
               <td>io.overdrive.pw</td>
               <td>Montreal, Canada</td>
@@ -66,7 +67,7 @@
           </table>
         </div>
         <br>
-<!--
+<!-- We don't really advertise relay anymore. The channels here still exist, though: (2014-12-05)
         <div class="panel panel-info">
           <div class="panel-heading">Relayed Networks</div>
           <div class="panel-body">
@@ -84,14 +85,6 @@
                 </tr>
             </thead>
             <tr>
-                <td>AthemeNet</td>
-                <td><code>#overdrive</code></td>
-                <td><code><a href="irc://irc.atheme.org/overdrive">irc.atheme.org</a></code></td>
-                <td>July 02, 2012 <em>(as #channel)</em></td>
-                <td><i style="color:#0A0" class="fa fa-check"></i> Yes (+6697)</td>
-                <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
-            </tr>
-            <tr>
                 <td>freenode</td>
                 <td><code>##GLolol</code></td>
                 <td><code><a href="irc://chat.freenode.net/#GLolol">chat.freenode.net</a></code></td>
@@ -99,22 +92,6 @@
                 <td><i style="color:#0A0" class="fa fa-check"></i> Yes (+6697)</td>
                 <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
             </tr>
-             <tr>
-                <td>ParadoxIRC</td>
-                <td><code>#1</code></td>
-                <td><code><a href="irc://irc.paradoxirc.net/1">irc.paradoxirc.net</a></code></td>
-                <td>July 27, 2012</td>
-                <td><i style="color:#0A0" class="fa fa-check"></i> Yes (+6697)</td>
-                <td><i style="color:#0A0" class="fa fa-check"></i> Yes: <code>ipv6.paradoxirc.net</code></td>
-            </tr> 
-            <tr>
-                <td>ASoTnet</td>
-                <td><code>#overdrive</code></td>
-                <td><code><a href="irc://irc.aseriesoftubez.com/overdrive">irc.aseriesoftubez.com</a></code></td>
-                <td>April 2014</td>
-                <td><i style="color:#0A0" class="fa fa-check"></i> Yes (+6697)</td>
-                <td><i style="color:#0A0" class="fa fa-check"></i> Yes</td>
-            </tr> 
             </table>
       </div> -->
       

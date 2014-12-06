@@ -50,13 +50,12 @@
                 </tr>
                 <tr>
                     <td>Website:</td>
-                    <td><s><b>THIS ONE</b></s> also <a href="https://secure.overdrive.pw/wordpress">blog</a></td>
+                    <td><a href="https://secure.overdrive.pw/">sunrise homepage</a></td>
                 </tr>
                 <tr>
                     <td>Bio:</td>
-                    <td>GLolol (a.k.a. James) is <s>THE BEST PERSON ON EARTH</s> your resident lazy Asian kid.
-                He enjoys messing around on IRC, and constantly breaks things!<br>
-                (He also writes this website, so apologies if things get a <em>little</em> biased!)</td>
+                    <td>GLolol (James) is your resident lazy Asian kid.
+                He enjoys messing around on IRC, learning how to code, and constantly breaks things! He also writes this website.</td>
                 </tr>
 			</table>
 		</div>
@@ -81,7 +80,7 @@
 				</tr>
 				<tr>
 					<td>Bio:</td>
-					<td>Kitty is cool and hosts the network for us! (&lt;3 Kitty) He's been on IRC for 5 years and has experience running
+					<td>Kitty is cool and helps to host the network for us! (&lt;3 Kitty) He's been on IRC for 5 years and has experience running
 					IRC servers for 4, and now he just kinda idles and makes sure things work. </td>
 				</tr>
 			</table>
@@ -96,7 +95,7 @@
 				</tr>
 				<tr>
 					<td>Role:</td>
-					<td>Operator of kawaii.overdrive.pw</td>
+					<td>Network Operator</td>
 				</tr>
 				<tr>
 					<td style="width:120px;">Servers owned:</td>
@@ -132,29 +131,7 @@
 					<td style="font-style:italic;">N/A</td>
 				</tr>
 			</table>
-		</div></div> <!-- /row --><div class="row">
-		<!-- <div class="col-md-6">
-			<h4 class="media-heading">gbyers</h4>
-			<table class="table table-condensed">
-                <tr>
-                    <td>Location:</td>
-                    <td>UK</td>
-                </tr>
-                <tr>
-                    <td>Role:</td>
-                    <td>Administrator of ok.overdrive.pw</td>
-                </tr>
-                <tr>
-                    <td style="width:120px;">Servers owned:</td>
-                    <td>ok</td>
-                </tr>
-                <tr>
-                    <td>Website:</td>
-                    <td style="font-style:italic;">N/A</td>
-                </tr>
-			</table>
-		</div> -->
-      </div></div></div>
+		</div></div></div></div>
        <hr>
       <h2>Contact us</h2>
       <div class="row">

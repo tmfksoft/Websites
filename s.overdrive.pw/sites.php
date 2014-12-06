@@ -14,6 +14,7 @@
       <li><a href="index.php">Home</a></li>
       <li><a href="sites.php">Sites hosted</a></li>
       <li><a href="/f" target="_blank">Files index</a></li>
+      <li><a href="/pages">Web Demos!</a></li>
       <?php
        if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on') {
         echo '<li><a style="background-color:DarkRed" href="https://secure.overdrive.pw' . $_SERVER['REQUEST_URI'] . '">SSL</a></li>';}?>
