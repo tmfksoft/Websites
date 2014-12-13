@@ -1,28 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>sunrise</title>
-    <link href="splash.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<?php include ('include/headers.php'); ?>
 </head>
 
 <body>
 <table class="container">
 <tr><td>
-    <div class="nav">
-    <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="sites.php">Sites hosted</a></li>
-      <li><a href="/f" target="_blank">Files index</a></li>
-      <li><a href="/pages">Web Demos!</a></li>
-      <?php
-       if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on') {
-        echo '<li><a style="background-color:DarkRed" href="https://secure.overdrive.pw' . $_SERVER['REQUEST_URI'] . '">SSL</a></li>';
-       }
-      ?>
-    </ul>
-    </div>
+    <?php include ('include/nav.php'); ?>
 </td></tr>
 <tr><td class="container-inner">
    <h1>sunrise</h1>

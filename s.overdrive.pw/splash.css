@@ -18,12 +18,10 @@ body {
 	font-family: sans-serif;
     text-align: center;
 }
-h1,p.lead,.nav {
+h1,p.lead,.nav,h2 {
     text-shadow: 2px 1px 1px #111; 
     font-family:"Droid Sans", sans-serif;
-}
-.nav {
-   margin: 10px;
+    display: block;
 }
 h1 {
 	font-size: 48px;
@@ -35,9 +33,6 @@ p {
 	padding: 0;
 	font-size: 14px;
 }
-.lead {
-    font-size: 20px;
-}
 
 a {
 	color: #33eaea;
@@ -46,6 +41,21 @@ a {
 a:hover {
 	color: #aaeeee;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+code {
+    color: #88EE77;
+}
+
 .container {
     border: 0;
     width: 100%;
@@ -56,23 +66,45 @@ a:hover {
     height: 100%;
     vertical-align: middle;
 }
+
+.lead {
+    font-size: 20px;
+}
+
 .footer {
     text-align: center;
     color: #999999;
     padding-bottom: 25px;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    text-align: center;
-    padding: 0;
+
+.inset {
+    border-radius: 15px;
+    border:inset 4px #b4b4b4;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.inset > p {
+    font-size: large;
+    color: #DDDDDD;
+}
+.inset > ul > li {
+    margin: 3px;
+}
+.scroll-overflow {
+    height: 90%;
+    overflow: auto;
+}
+
+.nav {
+    margin: 10px;
 }
 .nav > ul > li {
     display: inline;
     padding-top: 15px;
     font-family:"Open Sans", sans-serif;
 }
-.nav ul > li > a, #sitelist {
+.nav ul > li > a, .inset {
     background: rgb(34, 34, 42);
     background: rgba(34, 34, 42, .5);
 }
@@ -86,20 +118,14 @@ ul {
 .nav ul > li > a:focus {
     color: #EEEE88;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+.nav ul > li > i {
+    font-family: inherit;
 }
 
 #sitelist {
-    border-radius: 15px;
-    border:inset 4px #b4b4b4;
-    display: block;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 20px;
+    padding: 10px;
 }
-
 #sitelist > li {
-    padding: 4px;
+    margin: 10px;
     font-size: 20px;
 }
