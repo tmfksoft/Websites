@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-   <?php
-    $page = 'Server List';
-    include ('include/headers.php'); ?>
-  </head>
-  
-  <body>
-<?php 
-    $page = 'servers';
-    include ('include/navbar.php');
+<?php
+    template::set('title','Server List');
+    template::set('page','servers');
 ?>
     <div class="container">
         <div class="page-header"><h1>Server List</h1></div>
@@ -94,11 +85,3 @@
             </tr>
             </table>
       </div> -->
-      
-      <hr>
-      <footer>
-        <p>Copyright &copy; 2013-2014, OVERdrive-IRC. All rights reserved.</p>
-      </footer>
-    </div> <!-- /container -->
-  </body>
-</html>

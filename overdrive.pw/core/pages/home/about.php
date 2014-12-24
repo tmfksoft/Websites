@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-   <?php
-    $page = 'About';
-    include ('include/headers.php'); ?>
-  </head>
-
-  <body>
 <?php
-    include ('include/navbar.php'); 
+template::set('title','About');
+template::set('page','About');
 ?>
     <div class="container">
       <div class="page-header"><h1>About Us</h1></div>
@@ -25,7 +17,7 @@
         <div class="col-md-6">
         <h3><i class="fa fa-cloud"></i> Servers</h3>
         <p>For information regarding connections and servers, please see our Servers page.</p>
-        <p><a class="btn btn-primary" href="servers.php" role="button">Servers &raquo;</a></p>
+        <p><a class="btn btn-primary" href="./servers" role="button">Servers &raquo;</a></p>
         </div>
       </div>
       <br>

@@ -1,0 +1,3 @@
+# For Apache HTTPD's
+deny from all
+# Keep them out!

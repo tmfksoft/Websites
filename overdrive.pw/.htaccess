@@ -1,0 +1,9 @@
+Options +FollowSymLinks  
+RewriteEngine On  
+  
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f 
+
+# Use [L,NC,NS,QSA] to forward query Str
+
+RewriteRule ^([\w\-\/]+)$ ./index.php?$1 [L,NC,NS,QSA]

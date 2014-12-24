@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-   <?php
-    $page = 'AUP';
-    include ('include/headers.php'); ?>
-  </head>
-
-  <body>
 <?php
-    include ('include/navbar.php'); 
+	template::set('title','AUP');
+	template::set('page','aup'); // For the Nav Menu
 ?>
     <div class="container">
        <div class="page-header"><h1>Acceptable Use Policy (AUP)</h1></div>
@@ -25,11 +17,3 @@
          <li><i class="fa fa-fw fa-shield text-primary"></i> And finally, No ban evading. You must be <em>really</em> dumb to think you can get away with it.</li>
 		 </ol>
          <p><em>*</em> Sane: appropriate enough to not scare anyone away or damage our reputations. Harassment, bashing, and other nonsense will not be tolerated. Keep the sex talk to a minimum. Trying to blatantly evade the rules will most likely get you banned.</p>
-      <hr>
-
-      <footer>
-        <p>Copyright &copy; 2013-2014, OVERdrive-IRC. All rights reserved.</p>
-      </footer>
-    </div> <!-- /container -->
-  </body>
-</html>

@@ -7,29 +7,29 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">OVERdrive-IRC</a>
+          <a class="navbar-brand" href="/">OVERdrive-IRC</a>
         </div>
         
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <?php
-            $page = strtolower($page);
+            $page = strtolower(template::__('page'));
             echo ($page == 'about') ?
             '<li class="active"><a href="#">About</a></li>
             ' :
-            '<li><a href="about.php">About</a></li>
+            '<li><a href="./about">About</a></li>
             ';
             
             echo ($page == 'servers') ?
             '<li class="active"><a href="#">Server List</a></li>
             ' :
-            '<li><a href="servers.php">Server List</a></li>
+            '<li><a href="./servers">Server List</a></li>
             ';
             
             echo ($page == 'aup') ?
             '<li class="active"><a href="#">AUP</a></li>
             ' :
-            '<li><a href="aup.php">AUP</a></li>
+            '<li><a href="./aup">AUP</a></li>
             ';
           ?>
           <li><a href="//webchat.overdrive.pw/?nick=ovdWebUser...&amp;channels=chat" target="_blank">Chat Now!</a></li>
